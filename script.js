@@ -4,7 +4,12 @@ const scissors = document.getElementById("scissors");
 const lizard = document.getElementById("lizard");
 const spock = document.getElementById("spock");
 const compRandom = document.getElementById("start");
+const resetButton = document.getElementById("reset");
 let playerChoice;
+
+resetButton.addEventListener("click", function () {
+    location.reload();
+});
 
 rock.addEventListener("click", () => {
     playerChoice = rock.innerHTML;
@@ -41,44 +46,48 @@ compRandom.addEventListener("click", () => {
     console.log(computerChoice);
     console.log(playerChoice);
 
-    if (computerChoice === playerChoice) {
-        document.getElementById("result").innerHTML = "it's a tie";
-    } else if (computerChoice === "Rock") {
-        if (playerChoice === "Scissors" || playerChoice === "Lizard") {
-            document.getElementById("result").innerHTML = "computer wins";
-        } else {
-            document.getElementById("result").innerHTML = "player wins";
-        }
+    function compare() {
+        if (computerChoice === playerChoice) {
+            document.getElementById("result").innerHTML = "it's a tie";
+        } else if (computerChoice === "✊") {
+            if (playerChoice === "✌" || playerChoice === "🤏") {
+                document.getElementById("result").innerHTML = "computer wins";
+            } else {
+                document.getElementById("result").innerHTML = "player wins";
+            }
 
-    } else if (computerChoice === "Paper") {
-        if (playerChoice === "Rock" || playerChoice === "Spock") {
-            document.getElementById("result").innerHTML = "computer wins";
-        } else {
-            document.getElementById("result").innerHTML = "player wins";
-        }
+        } else if (computerChoice === "✋") {
+            if (playerChoice === "✊" || playerChoice === "🖖") {
+                document.getElementById("result").innerHTML = "computer wins";
+            } else {
+                document.getElementById("result").innerHTML = "player wins";
+            }
 
-    } else if (computerChoice === "Scissors") {
-        if (playerChoice === "Paper" || playerChoice === "Lizard") {
-            document.getElementById("result").innerHTML = "computer wins";
-        } else {
-            document.getElementById("result").innerHTML = "player wins";
-        }
+        } else if (computerChoice === "✌") {
+            if (playerChoice === "✋" || playerChoice === "🤏") {
+                document.getElementById("result").innerHTML = "computer wins";
+            } else {
+                document.getElementById("result").innerHTML = "player wins";
+            }
 
-    } else if (computerChoice === "Lizard") {
-        if (playerChoice === "Spock" || playerChoice === "Paper") {
-            document.getElementById("result").innerHTML = "computer wins";
-        } else {
-            document.getElementById("result").innerHTML = "player wins";
-        }
+        } else if (computerChoice === "🤏") {
+            if (playerChoice === "🖖" || playerChoice === "✋") {
+                document.getElementById("result").innerHTML = "computer wins";
+            } else {
+                document.getElementById("result").innerHTML = "player wins";
+            }
 
-    } else if (computerChoice === "Spock") {
-        if (playerChoice === "Scissors" || playerChoice === "Rock") {
-            document.getElementById("result").innerHTML = "computer wins";
-        } else {
-            document.getElementById("result").innerHTML = "player wins";
+        } else if (computerChoice === "🖖") {
+            if (playerChoice === "✌" || playerChoice === "✊") {
+                document.getElementById("result").innerHTML = "computer wins";
+            } else {
+                document.getElementById("result").innerHTML = "player wins";
+            }
         }
     }
+    compare();
 });
+
 
 
 
