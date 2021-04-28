@@ -1,0 +1,16 @@
+body {
+    background-color: seagreen;
+    text-align: center;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
