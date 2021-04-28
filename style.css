@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap');
+
 body {
+    margin-top: 60px;
     background-color: #479b4a;
     text-align: center;
+    font-family: 'Fredoka One', cursive;
+    color: #030503;
 }
 
 button {
@@ -9,10 +14,12 @@ button {
     outline: none;
     cursor: pointer;
     font-size: 2rem;
+    color: #030503;
 }
 
-button:hover {
+.small-icons:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .selection button {

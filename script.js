@@ -54,40 +54,40 @@ function computer () {
     console.log(playerChoice);
 
         if (computerChoice === playerChoice) {
-            document.getElementById("result").innerHTML = "it's a tie";
+            document.getElementById("result").innerHTML = "it's a tie!";
         } else if (computerChoice === "✊") {
-            if (playerChoice === "✌" || playerChoice === "🤏") {
-                document.getElementById("result").innerHTML = "computer wins";
+            if (playerChoice === "✌️" || playerChoice === "🤏") {
+                document.getElementById("result").innerHTML = "computer wins!";
             } else {
-                document.getElementById("result").innerHTML = "player wins";
+                document.getElementById("result").innerHTML = "player wins!";
             }
 
         } else if (computerChoice === "✋") {
             if (playerChoice === "✊" || playerChoice === "🖖") {
-                document.getElementById("result").innerHTML = "computer wins";
+                document.getElementById("result").innerHTML = "computer wins!";
             } else {
-                document.getElementById("result").innerHTML = "player wins";
+                document.getElementById("result").innerHTML = "player wins!";
             }
 
-        } else if (computerChoice === "✌") {
+        } else if (computerChoice === "✌️") {
             if (playerChoice === "✋" || playerChoice === "🤏") {
-                document.getElementById("result").innerHTML = "computer wins";
+                document.getElementById("result").innerHTML = "computer wins!";
             } else {
-                document.getElementById("result").innerHTML = "player wins";
+                document.getElementById("result").innerHTML = "player wins!";
             }
 
         } else if (computerChoice === "🤏") {
             if (playerChoice === "🖖" || playerChoice === "✋") {
-                document.getElementById("result").innerHTML = "computer wins";
+                document.getElementById("result").innerHTML = "computer wins!";
             } else {
-                document.getElementById("result").innerHTML = "player wins";
+                document.getElementById("result").innerHTML = "player wins!";
             }
 
         } else if (computerChoice === "🖖") {
-            if (playerChoice === "✌" || playerChoice === "✊") {
-                document.getElementById("result").innerHTML = "computer wins";
+            if (playerChoice === "✌️" || playerChoice === "✊") {
+                document.getElementById("result").innerHTML = "computer wins!";
             } else {
-                document.getElementById("result").innerHTML = "player wins";
+                document.getElementById("result").innerHTML = "player wins!";
             }
         }
 
