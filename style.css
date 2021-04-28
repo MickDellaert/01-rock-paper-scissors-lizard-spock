@@ -23,3 +23,7 @@ button:hover {
 .selection {
     height: 300px;
 }
+
+.player-input {
+    margin-top: 40px;
+}
