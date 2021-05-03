@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin-top: 60px;
     background-color: #479b4a;
     text-align: center;
     font-family: 'Fredoka One', cursive;
     color: #030503;
+    }
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 button {
@@ -17,20 +31,25 @@ button {
     color: #030503;
 }
 
-.small-icons:hover {
+.small-icons button:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
 
 .selection button {
-    font-size: 10rem;
+    font-size: 160px;
     transform: none;
+    text-align: center;
 }
 
-.selection {
-    height: 300px;
+.icons-row {
+    margin: 20px;
 }
 
-.player-input {
-    margin-top: 40px;
+.icons-row button {
+    font-size: 60px;
+
+}
+.win-results {
+    margin-top: 50px;
 }
