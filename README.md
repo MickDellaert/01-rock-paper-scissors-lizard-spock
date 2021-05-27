@@ -1,5 +1,21 @@
 # 01-rock-paper-scissors-lizard-spock
 
+![](RPSLS-screenshot.png)
+
+A little spin on the classic game: Rock Paper Scissors Lizard Spock:
+* Using Javascript to build the game
+* Comparing results with else if statements
+* Using emoji's to visually represent the choices
+* Using function to generate random cpu choices
+* Getting the user input by ID and using this for comparison
+* Displaying the winner of each round on screen
+* Adding a counter for the number of wins
+* Game is responsive with use of Bootstrap
+* Adding CSS to give a little retro feel to the game
+
+Have some fun over here:
+https://mickdellaert.github.io/01-rock-paper-scissors-lizard-spock/
+
 The rules
 
     Scissors cut Paper
