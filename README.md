@@ -1,6 +1,6 @@
 # 01-rock-paper-scissors-lizard-spock
 
-![](RPSLS-screenshot.png)
+![](img/RPSLS-screenshot.png)
 
 A little spin on the classic game: Rock Paper Scissors Lizard Spock:
 * Using Javascript to build the game
