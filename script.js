@@ -58,7 +58,7 @@ function computer () {
         if (computerChoice === playerChoice) {
             document.getElementById("result").innerHTML = "it's a tie!";
         } else if (computerChoice === "✊") {
-            if (playerChoice === "✌️" || playerChoice === "🤏") {
+            if (playerChoice === "✌️" || playerChoice === "🤞") {
                 result.innerHTML = "computer wins!";
                 compScore.innerHTML = compCount++ + " ";
             } else {
@@ -76,7 +76,7 @@ function computer () {
             }
 
         } else if (computerChoice === "✌️") {
-            if (playerChoice === "✋" || playerChoice === "🤏") {
+            if (playerChoice === "✋" || playerChoice === "🤞") {
                 result.innerHTML = "computer wins!";
                 compScore.innerHTML = compCount++ + " ";
             } else {
@@ -84,7 +84,7 @@ function computer () {
                 playerScore.innerHTML = " " + playerCount++;
             }
 
-        } else if (computerChoice === "🤏") {
+        } else if (computerChoice === "🤞") {
             if (playerChoice === "🖖" || playerChoice === "✋") {
                 result.innerHTML = "computer wins!";
                 compScore.innerHTML = compCount++ + " ";
