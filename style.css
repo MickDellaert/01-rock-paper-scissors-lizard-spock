@@ -12,7 +12,7 @@ body {
     text-align: center;
     font-family: 'Fredoka One', cursive;
     color: #030503;
-    }
+}
 
 h1 {
     font-size: 50px;
@@ -50,6 +50,31 @@ button {
     font-size: 60px;
 
 }
+
 .win-results {
     margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+    body {
+        margin-top: 20px;
+    }
+
+    .selection button {
+        font-size: 100px;
+    }
+
+    .win-results {
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+
 }
