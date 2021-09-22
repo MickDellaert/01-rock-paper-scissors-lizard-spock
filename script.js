@@ -3,6 +3,9 @@ let playerChoice = document.getElementById("user-choice");
 let result = document.getElementById("result");
 let compScore = document.getElementById("compScore");
 let playerScore = document.getElementById("playerScore");
+let letsPlay = document.getElementById("lets-play");
+let selectionRow = document.querySelector(".selection");
+let playerComputerRow = document.querySelector(".player-computer");
 let compCount = 1;
 let playerCount = 1;
 
@@ -14,6 +17,9 @@ document.querySelectorAll(".choice").forEach(choice =>
     choice.addEventListener("click", () => {
         playerChoice = choice.innerHTML;
         document.getElementById("user-choice").innerHTML = playerChoice;
+        letsPlay.classList.add("hidden");
+        selectionRow.classList.remove("hidden");
+        playerComputerRow.classList.remove("hidden");
         setTimeout(() => {
             computer();
         }, 400);

@@ -55,6 +55,19 @@ button {
     margin-top: 32px;
 }
 
+.hidden {
+    display: none;
+}
+
+#lets-play {
+    height: 280px;
+}
+
+#lets-play h2 {
+    font-size: 140px;
+    margin-bottom: 50px;
+}
+
 @media (max-width: 576px) {
     body {
         margin-top: 20px;
@@ -74,6 +87,15 @@ button {
 
     h2 {
         font-size: 25px;
+    }
+
+    #lets-play {
+        height: 216px;
+    }
+
+    #lets-play h2 {
+        font-size: 60px;
+        margin-bottom: 20px;
     }
 
 
