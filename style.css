@@ -67,6 +67,9 @@ button {
     font-size: 140px;
     margin-bottom: 50px;
 }
+.player-computer{
+    height: 40px;
+}
 
 @media (max-width: 576px) {
     body {
@@ -90,13 +93,15 @@ button {
     }
 
     #lets-play {
-        height: 216px;
+        height: 210px;
     }
 
     #lets-play h2 {
         font-size: 60px;
         margin-bottom: 20px;
     }
-
+    .player-computer{
+        height: 30px;
+    }
 
 }
